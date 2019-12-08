@@ -21,7 +21,7 @@ if kak == "yes":
     f.write(text+ '\n')
 
 os.system('git add Keys.txt')
-os.system("git commit -m 'Update'")
+os.system("git commit -m 'Keys'")
 os.system("git push origin master")
 time.sleep(5)
 
