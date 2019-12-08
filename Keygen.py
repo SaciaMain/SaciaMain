@@ -18,7 +18,7 @@ if kak == "yes":
     print("")
     print("")
     f = open('Keys.txt', 'a')
-    f.write(text+ '\n')
+    f.write(text + '\n')
 
 os.system('git add Keys.txt')
 os.system("git commit -m 'Keys'")
