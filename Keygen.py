@@ -17,7 +17,7 @@ if kak == "yes":
     print(text)
     print("")
     print("")
-    f = open('Keys.txt', 'a')
+    f = open('Keys.txt', 'w')
     f.write(text + '\n')
 
 os.system("git add Keys.txt")
