@@ -20,7 +20,7 @@ if kak == "yes":
     f = open('Keys.txt', 'a')
     f.write(text + '\n')
 
-os.system('git add Keys.txt')
+os.system("git add Keys.txt")
 os.system("git commit -m 'Keys'")
 os.system("git push origin master")
 
