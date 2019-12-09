@@ -19,9 +19,6 @@ if kak == "yes":
     print("")
     f = open('Keys.txt', 'w')
     f.write(text + '\n')
-
-os.system("git add Keys.txt")
-os.system("git commit -m 'Keys'")
-os.system("git push origin master")
-
-
+    os.system("git add Keys.txt")
+    os.system("git commit -m 'Updated!' ")
+    os.system("git push origin master")
